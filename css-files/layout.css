@@ -1,0 +1,103 @@
+/* ----------------- */
+/* custom properties */
+/* ----------------- */
+
+:root {
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+  --clr-cream: 23 0% 95%;
+
+  /* font-sizes */
+  --fs-900: 9.1rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+}
+
+/* background colors */
+.bg-dark {
+    background-color: hsl(var(--clr-dark));
+  }
+  .bg-accent {
+    background-color: hsl(var(--clr-light));
+  }
+  .bg-white {
+    background-color: hsl(var(--clr-white));
+  }
+  .bg-cream {
+    background-color: hsl(var(--clr-cream));
+  }
+  
+/* Text colors */
+  .text-dark {
+    color: hsl(var(--clr-dark));
+  }
+  .text-accent {
+    color: hsl(var(--clr-light));
+  }
+  .text-white {
+    color: hsl(var(--clr-white));
+  }
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* set up the body */
+body {
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  font-size: var(--fs-400);
+  background-color: hsl(var(--clr-light));
+  color: hsl(var(--clr-white));
+  line-height: 1.5;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+  "Lato", "Poppins";
+}
+
+/* makes images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

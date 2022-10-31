@@ -1,0 +1,22 @@
+/* -------------------------- */
+/*  Utility clasess General*/
+/* -------------------------- */
+
+.flex-container {
+    display: flex;
+    gap: var(--gap, 2rem);
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 11rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+  }
+
+  .flow > *:where(:not(:first-child)) {
+    margin-top: var(--flow-space, 1rem);
+    /* outline: 1px solid red;
+    background: blueviolet; */
+  }
