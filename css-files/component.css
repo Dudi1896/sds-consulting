@@ -2,21 +2,39 @@
 /*  Utility clasess General*/
 /* -------------------------- */
 
-.flex-container {
+.sds-flex-container {
     display: flex;
     gap: var(--gap, 2rem);
     flex-wrap: wrap;
     justify-content: center;
     min-width: 11rem;
+    border: 1px solid blue;
   }
 
-  .grid {
+  .sds-grid-container {
     display: grid;
     gap: var(--gap, 1rem);
+    border: 1px solid green;
   }
 
-  .flow > *:where(:not(:first-child)) {
+  .sds-flow > *:where(:not(:first-child)) {
     margin-top: var(--flow-space, 1rem);
-    /* outline: 1px solid red;
-    background: blueviolet; */
+    border: 1px solid red;
+  }
+
+  #sds-navbar{
+    background: hsl( var(--clr-white) / .15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap, 3rem);
+  }
+
+  .nav-button{
+    min-width: 8rem;
+    background: hsl( var(--clr-dark) / .75);
+    border-radius: .5rem;
+    text-align: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
