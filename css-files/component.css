@@ -14,9 +14,8 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 20px 25px 20px; 
     text-decoration: none;
-    font-size: 17px;
   }
   
   .topnav a:hover {
@@ -29,12 +28,12 @@
     color: white;
   }
   
-  .topnav .icon {
+  .topnav .icon{
     display: none;
   }
   
 
-/* Responsive Navbar when less than 676px */
+/* Responsive Navbar when screen is less than 676px */
   @media screen and (max-width: 676px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -55,8 +54,6 @@
       text-align: left;
     }
   }
-
-
   
 
   /* Responsive Menu Bar */
@@ -83,14 +80,12 @@
 
 
 
-
-
   .flex-container {
-    display: flex;
+    /* display: flex;
     gap: var(--gap, 2rem);
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 11rem;
+    min-width: 11rem; */
     border: 1px solid blue;
   }
 

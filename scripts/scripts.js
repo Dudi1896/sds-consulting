@@ -5,6 +5,8 @@ function responsiveNav() {
     } else {
       x.className = "topnav";
     }
+
+    
   }
   function menuBar(x) {
     x.classList.toggle("change");

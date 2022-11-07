@@ -80,6 +80,7 @@ body {
   font-size: var(--fs-400);
   background-color: hsl(var(--clr-light));
   color: hsl(var(--clr-white));
+  text-decoration: none;
   line-height: 1.5;
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
