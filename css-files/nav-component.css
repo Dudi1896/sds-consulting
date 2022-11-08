@@ -1,12 +1,11 @@
 /* -------------------------- */
-/*  Utility clasess General*/
+/*  Utility clasess for Navbar*/
 /* -------------------------- */
 
 /* Navbar */
 .topnav {
   overflow: hidden;
   background-color: hsl(var(--clr-dark) / 0.45);
-  /* position: relative; */
 }
 .topnav a {
   float: left;
@@ -20,11 +19,11 @@
 .topnav a.logo {
   font-size: 25px;
   font-weight: bold;
-  margin-left: 100px;
+  margin-left: 350px;
 }
 .topnav-right {
   float: right;
-  margin-right: 100px;
+  margin-right: 350px;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -36,6 +35,18 @@
 }
 .topnav .icon {
   display: none;
+}
+
+/* Responsive Navbar when screen is less than 1280px */
+@media screen and (max-width: 1280px) {
+  .topnav a.logo {margin-left: 150px;}
+  .topnav-right {margin-right: 150px;}
+}
+
+/* Responsive Navbar when screen is less than 760px */
+@media screen and (max-width: 900px) {
+  .topnav a.logo {margin-left: 30px;}
+  .topnav-right {margin-right: 30px;}
 }
 
 /* Responsive Navbar when screen is less than 676px */
