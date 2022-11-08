@@ -5,31 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css-files/layout.css" />
+    <script src="./scripts/scripts.js"></script>
     <link rel="stylesheet" href="./css-files/component.css" />
     <title>SDS Consulting</title>
-    <script src="./scripts/scripts.js"></script>
   </head>
   <body>
     <header>
       <div class="topnav" id="myTopnav">
-        <!-- <div class="flex-container"> -->
-          <a href="../home.html">SDS Logo</a>
-        <!-- </div> -->
-
-          
-          <a href="./home.html"  class="active">Home</a>
-          <a href="./pages/services.html"  >Services</a>
-          <a href="./pages/portfolio.html"  >Portfolio</a>
-          <a href="./pages/contact-us.html"  >Contact Us</a>
-          <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
-            <div class="container" onclick="menuBar(this)">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </div>
-          </a>
-
-
+          <a href="./home.html" class="logo">SDS Logo</a>
+          <div onclick="menuBar(this)">
+            <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+          </div>
+          <div class="topnav-right">
+            <a href="./home.html" class="active">Home</a>
+            <a href="./pages/services.html">Services</a>
+            <a href="./pages/portfolio.html">Portfolio</a>
+            <a href="./pages/contact-us.html">Contact Us</a>
+          </div>
       </div>
     </header>
 
