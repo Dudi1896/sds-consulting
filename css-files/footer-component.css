@@ -1,0 +1,39 @@
+/* -------------------------- */
+/*  Utility clasess for Footer*/
+/* -------------------------- */
+
+.footer {
+    text-align: center;
+    background: var(--brand-color);
+    padding: 15px;
+  }
+
+  .box-daux ul{
+    list-style-type: none;
+    font-size: var(--fs-200);
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .box-daux li:hover{
+    transform: scale(1.1);
+  }
+
+  .box-daux{
+    font-size: var(--fs-200);
+    text-align: center;
+    float: left;
+    width: 50%;
+  }
+
+  .box-copyright{
+    font-size: var(--fs-200);
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 576px) {
+    .box-daux {width: 100%;}
+  }
+  

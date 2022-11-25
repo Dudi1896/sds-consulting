@@ -7,32 +7,143 @@
     <link rel="stylesheet" href="./css-files/layout.css" />
     <script src="./scripts/scripts.js"></script>
     <link rel="stylesheet" href="./css-files/nav-component.css" />
+    <link rel="stylesheet" href="./css-files/footer-component.css" />
+    <link rel="stylesheet" href="./css-files/section-components.css" />
+    <link rel="stylesheet" href="./css-files/contact-component.css">
     <title>SDS Consulting</title>
   </head>
   <body>
     <header>
       <div class="topnav" id="myTopnav">
-          <a href="./home.html" class="logo">SDS Logo</a>
-          <div onclick="menuBar(this)">
-            <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </a>
-          </div>
-          <div class="topnav-right">
-            <a href="./home.html" class="active">Home</a>
-            <a href="./pages/services.html">Services</a>
-            <a href="./pages/portfolio.html">Portfolio</a>
-            <a href="./pages/contact-us.html">Contact Us</a>
-          </div>
+        <a href="./home.html" class="logo">SDS Logo</a>
+        <div onclick="menuBar(this)">
+          <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </a>
+        </div>
+        <div class="topnav-right">
+          <a href="./home.html" class="active">Home</a>
+          <a href="./pages/services.html">Services</a>
+          <a href="./pages/portfolio.html">Portfolio</a>
+          <a href="./pages/contact-us.html">Contact Us</a>
+        </div>
       </div>
     </header>
 
     <section>
-      <h1>My Homepage</h1>
+      <div style="text-align: center">
+        <h2>Resize the browser window to see the effect</h2>
+      </div>
+
+      <!-- The App Section -->
+      <div class="container">
+        <div class="row">
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>The App</b></h1>
+            <h1 class="large-font" style="color: var(--brand-color)">
+              <b>Why buy it?</b>
+            </h1>
+            <p>
+              <span style="font-size: 36px">Take photos like a pro.</span> You
+              should buy this app because lorem ipsum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="button">Download Application</button>
+          </div>
+          <div class="column-33">
+            <img src="./assets/pexels-evgeny-tchebotarev-2541310.jpg" width="435" height="531" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Clarity Section -->
+      <div class="container" style="background-color: var(--dark-color)">
+        <div class="row">
+          <div class="column-33">
+            <img src="./assets/pexels-mockupeditorcom-205316.jpg" alt="App" width="435" height="531" />
+          </div>
+          <div class="column-66">
+            <h1 class="xlarge-font" style="color: var(--mid-color);"><b>Clarity</b></h1>
+            <h1 class="large-font" style="color: var(--brand-color)"><b>Pixels, who?</b></h1>
+            <p style="color: var(--mid-color);">
+              <span style="font-size: 24px;  color: var(--mid-color);">A revolution in resolution.</span>
+              Sharp and clear photos with the world's best photo engine,
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquipex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <button class="button" style="background-color: var(--brand-color)">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- The App Section -->
+      <div class="container">
+        <div class="row">
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>The App</b></h1>
+            <h1 class="large-font" style="color: var(--brand-color)">
+              <b>Why buy it?</b>
+            </h1>
+            <p>
+              <span style="font-size: 36px">Take photos like a pro.</span> You
+              should buy this app because lorem ipsum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur.
+            </p>
+            <button class="button">Download Application</button>
+          </div>
+          <div class="column-33">
+            <img src="./assets/pexels-prakhar-bansal-732183.jpg" width="435" height="531" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="row">
+            <div class="box-daux">
+              <p>200 Hacker Way<br />
+              John's Creek, GA 30004<br />
+              419-419-2022<br /> </p></div>
+            <div class="box-daux">
+              <ul>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/instagram.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/twitter.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/youtube.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/tiktok.svg"
+                /></a>
+              </li>
+            </ul></div>
+            <div class="box-copyright">Copyright © 2022 SDS
+            Software LLC. All rights reserved. Terms and Conditions</div>
+      </div>
+    </footer>
   </body>
 </html>

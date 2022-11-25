@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css-files/layout.css" />
     <link rel="stylesheet" href="../css-files/nav-component.css" />
+    <link rel="stylesheet" href="../css-files/footer-component.css" />
+    <link rel="stylesheet" href="../css-files/section-components.css" />
+    <link rel="stylesheet" href="../css-files/contact-component.css">
     <script src="../scripts/scripts.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>SDS Consulting</title>
-
   </head>
   <body>
     <header>
@@ -16,9 +19,9 @@
         <a href="../home.html" class="logo">SDS Logo</a>
         <div onclick="menuBar(this)">
           <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </a>
         </div>
         <div class="topnav-right">
@@ -27,14 +30,80 @@
           <a href="./portfolio.html">Portfolio</a>
           <a href="./contact-us.html" class="active">Contact Us</a>
         </div>
-    </div>
+      </div>
     </header>
 
     <section>
-      <h1>My contact-us</h1>
+            <div class="container">
+              <div class="row">
+                <div class="column-66">
+                <div><span style="font-size: var(--fs-400)">Get In Touch</span></div>
+                <span style="font-size: var(--fs-650)">
+                  Contact us to build
+                  the right product
+                  with the right team
+                </span>
+              </div>
+              </div>
+              <div class="row">
+                <div class="column-66">
+                    <div class="box-container"><span style="font-size: var(--fs-700)">100+</span><br>projects delivered remotely</div>
+                    <div class="box-container"><span style="font-size: var(--fs-700)">92%</span><br>of a team senior and middle engineers</div>
+                    <div class="box-container"><span style="font-size: var(--fs-700)">12%</span><br>employee turnove rate</div>
+                    <div class="box-container"><span style="font-size: var(--fs-700)">9/10</span><br>customer satisfaction score</div>
+                </div>
+
+                <div class="column-33">
+                  <div class="contact-box">
+                    <div class="title">Contact Information</div>
+                    <div class="fields">
+                      <input type="text" id="firstName" placeholder="Name"> </input>
+                      <input type="text" id="lastName" placeholder="Company"> </input>
+                      <input type="text" id="email" placeholder="Email"> </input>
+                      <input type="text" id="message" placeholder="Message"> </input>
+                    </div>
+                    <div class="contact-button"><i class="fa fa-credit-card"></i>Get In Touch</div>
+                  </div>
+                </div>
+              </div>
+            </div>
     </section>
 
-    <footer></footer>
-
+    <footer>
+      <div class="footer">
+        <div class="row">
+            <div class="box-daux">
+              <p>200 Hacker Way<br />
+              John's Creek, GA 30004<br />
+              419-419-2022<br /> </p></div>
+            <div class="box-daux">
+              <ul>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/instagram.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/twitter.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/youtube.svg"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.com"
+                  ><img src="../assets/socials/tiktok.svg"
+                /></a>
+              </li>
+            </ul></div>
+            <div class="box-copyright">Copyright © 2022 SDS
+            Software LLC. All rights reserved. Terms and Conditions</div>
+      </div>
+    </footer>
   </body>
 </html>
+
+

@@ -9,41 +9,22 @@
   --clr-white: 0 0% 100%;
   --clr-cream: 23 0% 95%;
 
+  --brand-color: #8EC1D6;
+  --dark-color: #3D4B5F;
+  --mid-color: #CBD5E1;
+  --light-color: #F8FAFC;
+
   /* font-sizes */
   --fs-900: 9.1rem;
   --fs-800: 6.25rem;
   --fs-700: 3.5rem;
+  --fs-650: 2.5rem;
   --fs-600: 2rem;
   --fs-500: 1.75rem;
   --fs-400: 1.125rem;
   --fs-300: 1rem;
   --fs-200: 0.875rem;
 }
-
-/* background colors */
-.bg-dark {
-    background-color: hsl(var(--clr-dark));
-  }
-  .bg-accent {
-    background-color: hsl(var(--clr-light));
-  }
-  .bg-white {
-    background-color: hsl(var(--clr-white));
-  }
-  .bg-cream {
-    background-color: hsl(var(--clr-cream));
-  }
-  
-/* Text colors */
-  .text-dark {
-    color: hsl(var(--clr-dark));
-  }
-  .text-accent {
-    color: hsl(var(--clr-light));
-  }
-  .text-white {
-    color: hsl(var(--clr-white));
-  }
 
 html,
 body,
@@ -78,8 +59,8 @@ body {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   font-size: var(--fs-400);
-  background-color: hsl(var(--clr-light));
-  color: hsl(var(--clr-white));
+  background-color: var(--light-color);
+  color: var(--dark-color);
   text-decoration: none;
   line-height: 1.5;
   min-height: 100vh;
