@@ -21,78 +21,18 @@
   clear: both;
 }
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0px 5px;
-  /* border: 2px solid var(--brand-color); */
-}
 
-.column-66 {
+.column-left {
   float: left;
   width: 50%;
   padding: 20px;
-  /* border: 2px solid green; */
 }
 
-.column-33 {
+.column-right {
   float: left;
   width: 50%;
   padding: 20px;
-  /* border: 2px solid blueviolet; */
 }
-
-.button {
-  color: var(--brand-color);
-  padding: 14px 28px;
-  cursor: pointer;
-}
-
-.button:hover{
-  transform: translateX(10px);
-}
-
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.round-btn {
-  background-color: var(--light-color);
-  padding: 14px 28px;
-  cursor: pointer;
-  border-radius: 40px;
-  width: fit-content;
-  margin: 20px;
-  color: var(--dark-color);
-}
-
-.round-btn:hover{
-  border: 2px solid var(--brand-color);
-  background-color: var(--brand-color);
-}
-
-.drk-round-btn {
-  background-color: var(--dark-color);
-  padding: 14px 28px;
-  cursor: pointer;
-  border-radius: 40px;
-  width: fit-content;
-  margin: 20px;
-  border: 2px solid var(--light-color);
-  color: var(--light-color);
-}
-
-.drk-round-btn:hover{
-  color: var(--dark-color);
-  background-color: var(--light-color);
-}
-
 
 /* Float columns side by side */
 .column {
@@ -100,7 +40,7 @@
   width: 100%;
 }
 
-.double-column {
+.quarter-column {
   float: left;
   width: 25%;
 }
@@ -126,25 +66,18 @@
   clear: both;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
 
 /* Responsive columns */
 @media screen and (max-width: 576px) {
   .column {width: 100%; display: block;}
-  .double-column {width: 50%; display: block;}
-  .row {margin: 0px 5px;}
+  .quarter-column {width: 50%; display: block;}
 }
 
 @media screen and (max-width: 1000px) {
-  .column-66,
-  .column-33 {width: 100%;}
+  .column-left,
+  .column-right {width: 100%;}
   img { margin: auto; }
-  .card{margin: 20px;
-        height: fit-content;}
+  .card{margin: 20px; height: fit-content;}
 }
 
 

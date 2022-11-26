@@ -1,0 +1,77 @@
+/* ----------------------------- */
+/*  Utility clasess for buttons  */
+/* ----------------------------- */
+
+
+.clr-btn {
+    color: var(--brand-color);
+    padding: 14px 28px;
+    cursor: pointer;
+    width: fit-content;
+    background-color: var(--light-color);
+    border: 2px solid var(--light-color);
+  }
+  
+  .clr-btn:hover{
+    transform: translateX(10px);
+  }
+
+  /* Button arrows */
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .rnd-btn {
+    background-color: var(--light-color);
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 20px;
+    color: var(--dark-color);
+  }
+  
+  .rnd-btn:hover{
+    border: 2px solid var(--brand-color);
+    background-color: var(--brand-color);
+  }
+  
+  .blue-rnd-btn {
+    background-color: var(--brand-color);
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 20px;
+    border: 2px solid var(--light-color);
+    color: var(--dark-color);
+  }
+  
+  .blue-rnd-btn:hover{
+    border: 2px solid var(--dark-color);
+    background-color: var(--light-color);
+  }
+
+  .drk-rnd-btn {
+    background-color: var(--dark-color);
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 20px;
+    border: 2px solid var(--light-color);
+    color: var(--light-color);
+  }
+  
+  .drk-rnd-btn:hover{
+    color: var(--dark-color);
+    background-color: var(--light-color);
+  }

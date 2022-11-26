@@ -1,3 +1,6 @@
+/* --------------------------------------- */
+/*  Utility clasess for contact components */
+/* --------------------------------------- */
 
 
 .contact-box {
@@ -14,7 +17,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 7px 0px;
 }
 
-.contact-box .title {
+.title {
   background-color: var(--brand-color);
   width: 100%;
   border-top-left-radius: 4px;
@@ -27,30 +30,7 @@
   font-size: 15px;
 }
 
-.contact-box .contact-button {
-  font-size: var(--fs-400);
-  margin-top: 20px;
-  text-align: center;
-  width: fit-content;
-  padding: 14px 38px 14px 38px;
-  display: inline-block;
-  background-color: var(--brand-color);
-  color: var(--light-color);
-  cursor: pointer;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 7px 0px;
-}
-
-.contact-button:hover {
-  transform: scale(1.01);
-}
-
-.contact-box .fields {
-  width: 100%;
-  display: block;
-}
-
-.contact-box .fields input {
+.fields input {
   width: 100%;
   font-size: var(--fs-200);
   padding: 10px;
@@ -69,13 +49,6 @@
   margin: 0.01px;
   padding: 5px;
   height: 200px;
-}
-
-.box-holder{
-  content: "";
-  display: table;
-  clear: both;
-  object-fit: contain;
 }
 
 .box-container:hover{
