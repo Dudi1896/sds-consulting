@@ -47,7 +47,7 @@
 }
 
 .button:hover{
-  transform: scale(1.04);
+  transform: translateX(10px);
 }
 
 .arrow {
@@ -116,6 +116,7 @@
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   margin: 20px 20px 20px 20px;
   padding: 10px;
   background-color: var(--light-color);
