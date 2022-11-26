@@ -2,7 +2,6 @@
 /*  Utility clasess for Navbar*/
 /* -------------------------- */
 
-/* Navbar */
 .topnav {
   overflow: hidden;
   background-color: var(--brand-color);
@@ -105,24 +104,3 @@
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
-
-
-/* 
-.flex-container {
-  gap: var(--gap, 2rem);
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 10rem;
-  border: 1px solid blue;
-}
-
-.grid-container {
-  display: grid;
-  gap: var(--gap, 1rem);
-  border: 1px solid green;
-}
-
-.sds-flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-space, 1rem);
-  border: 1px solid red;
-} */
