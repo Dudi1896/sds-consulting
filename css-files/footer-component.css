@@ -12,7 +12,13 @@
     list-style-type: none;
     font-size: var(--fs-200);
     display: flex;
-    justify-content:space-evenly;
+    width: fit-content;
+    justify-content:center;
+  }
+
+  .box-daux li {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .box-daux li:hover{
