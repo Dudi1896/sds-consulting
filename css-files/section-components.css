@@ -2,6 +2,17 @@
 /*  Utility clasess for Sections */
 /* ----------------------------- */
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+  rgba(0, 0, 0, 0.5)), url("../assets/pexels-vishal-shah-3534471.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: var(--light-color);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -21,28 +32,25 @@
   clear: both;
 }
 
-
-.column-left {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-
-.column-right {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-
-/* Float columns side by side */
-.column {
-  float: left;
-  width: 100%;
-}
-
 .quarter-column {
   float: left;
   width: 25%;
+}
+
+.half-column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.three-q-column{
+  float: left;
+  width: 75%;
+}
+
+.column {
+  float: left;
+  width: 100%;
 }
 
 .central-title{
@@ -56,8 +64,8 @@
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  margin: 10px;
   padding: 10px;
   background-color: var(--light-color);
   object-fit: contain;
@@ -66,18 +74,19 @@
   clear: both;
 }
 
-
 /* Responsive columns */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 676px) {
   .column {width: 100%; display: block;}
   .quarter-column {width: 50%; display: block;}
+  .card{font-size: var(--fs-200);}
+  .text{display: hidden;}
 }
 
 @media screen and (max-width: 1000px) {
-  .column-left,
-  .column-right {width: 100%;}
+  .half-column {width: 100%;}
   img { margin: auto; }
   .card{margin: 20px; height: fit-content;}
+  .three-q-column{width: 100%; display: block; padding: 0 20px;}
 }
 
 

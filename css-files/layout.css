@@ -4,17 +4,13 @@
 
 :root {
   /* colors */
-  --clr-dark: 230 35% 7%;
-  --clr-light: 231 77% 90%;
-  --clr-white: 0 0% 100%;
-  --clr-cream: 23 0% 95%;
-
   --brand-color:#8EC1D6;
   --dark-color:#0e1011;  
   --mid-color:#CBD5E1;
   --light-color:#F8FAFC;
+  
 
-  /* font-sizes */
+  /* font-sizes- use vw in order to fit responsiveness */
   --fs-900: 9.1rem;
   --fs-800: 6.25rem;
   --fs-700: 3.5rem;
@@ -23,7 +19,36 @@
   --fs-500: 1.75rem;
   --fs-400: 1.125rem;
   --fs-300: 1rem;
-  --fs-200: 0.875rem;
+  --fs-200: 0.875rem;   
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+.text-mid {
+  color: var(--mid-color);
+}
+.text-brand {
+  color: var(--brand-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+.bg-light {
+  background-color: var(--light-color);
+}
+.bg-mid {
+  background-color: var(--mid-color);
+}
+.bg-brand {
+  background-color: var(--brand-color);
+}
+.bg-clear {
+  background-color: transparent;
 }
 
 html,
@@ -36,6 +61,32 @@ h5,
 h6,
 figure picture {
   margin: 0;
+}
+
+h1{
+  font-size: var(--fs-900);
+}
+h2{
+  font-size: var(--fs-800);
+}
+h3{
+  font-size: var(--fs-700);
+}
+h4{
+  font-size: var(--fs-650);
+}
+h5{
+  font-size: var(--fs-600);
+}
+h6{
+  font-size: var(--fs-500);
+}
+p{
+  font-size: var(--fs-400);
+}
+
+.padding-class{
+  padding: 60px 90px;
 }
 
 h1,
