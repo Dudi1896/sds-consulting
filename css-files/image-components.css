@@ -1,0 +1,19 @@
+/* ----------------------------- */
+/*  Utility clasess for Images   */
+/* ----------------------------- */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url("../assets/pexels-vishal-shah-3534471.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: var(--light-color);
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    img { margin: auto; }
+  }
