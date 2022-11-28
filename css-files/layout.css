@@ -100,6 +100,11 @@ p{
 .padding-class{
   padding: 60px 90px;
 }
+@media screen and (max-width: 1000px) {
+  .padding-class{
+    padding: 20px 20px;
+  }
+}
 
 h1,
 h2,

@@ -23,4 +23,5 @@
 
   @media screen and (max-width: 1000px) {
     img { margin: auto; }
+    .hero-image{ width: fit-content; }
   }

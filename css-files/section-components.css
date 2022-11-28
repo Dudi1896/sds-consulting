@@ -21,6 +21,11 @@
   clear: both;
 }
 
+.fifth-column{
+  float: left;
+  width: 20%;
+}
+
 .quarter-column {
   float: left;
   width: 25%;
@@ -76,6 +81,7 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .third-column,
   .half-column {width: 100%;}
   .card{margin: 20px; height: fit-content;}
   .three-q-column{width: 100%; display: block; padding: 0 20px;}

@@ -8,6 +8,7 @@
     padding: 14px 28px;
     cursor: pointer;
     width: fit-content;
+    min-width: 180px;
     background-color: transparent;
     border: 2px solid var(--dark-color);
     border-radius: 40px;
@@ -70,6 +71,7 @@
     cursor: pointer;
     border-radius: 40px;
     width: fit-content;
+    min-width: 180px;
     margin: 20px;
     background: var(--white-pad) padding-box,
     var(--mix-grade) border-box;
