@@ -62,17 +62,21 @@
   }
 
   .drk-rnd-btn {
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color); */
     padding: 14px 28px;
     cursor: pointer;
     border-radius: 40px;
     width: fit-content;
     margin: 20px;
-    border: 2px solid var(--light-color);
-    color: var(--light-color);
+    background: var(--white-pad) padding-box,
+    var(--mix-grade) border-box;
+    border-radius: 40px;
+    border: 5px solid transparent;
   }
   
   .drk-rnd-btn:hover{
     color: var(--dark-color);
     background-color: var(--light-color);
+    background-image: var(--horz-grade);
+    color: var(--light-color);
   }

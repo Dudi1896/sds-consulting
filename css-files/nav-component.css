@@ -4,7 +4,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: var(--brand-color);
+  background-image: var(--mix-grade);
 }
 .topnav a {
   float: left;
@@ -23,14 +23,13 @@
 .topnav-right {
   float: right;
   margin-right: 350px;
+  padding-top: 6px;
 }
 .topnav a:hover {
-  background-color: var(--brand-color);
-  color: var(--dark-color);
+  color: var(--mid-color);
 }
 .topnav a.active {
-  background-color: var(--brand-color);
-  color: var(--dark-color);
+  color: var(--mid-color);
 }
 .topnav .icon {
   display: none;
@@ -91,7 +90,7 @@
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: var(--dark-color);
+  background-color: var(--light-color);
   margin: 6px 0;
   transition: 0.4s;
 }
