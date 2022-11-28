@@ -28,6 +28,11 @@
   --fs-200: 0.875rem;   
 }
 
+.text-gradient {
+  background: var(--horz-grade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .text-dark {
   color: var(--dark-color);

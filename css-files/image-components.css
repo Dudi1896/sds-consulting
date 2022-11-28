@@ -10,9 +10,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
     color: var(--light-color);
   }
   
+
+.headshot {
+    float: left;
+    margin: 10px;
+  }
+
 
   @media screen and (max-width: 1000px) {
     img { margin: auto; }

@@ -18,7 +18,7 @@
 }
 
 .title {
-  background-color: var(--brand-color);
+  background-image: var(--mix-grade);
   width: 100%;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;

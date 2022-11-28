@@ -5,7 +5,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1150px;
+  max-width: 1250px;
   padding: 20px 0px;
 }
 
@@ -26,6 +26,11 @@
   width: 25%;
 }
 
+.third-column{
+  float: left;
+  width: 33.3333%;
+}
+
 .half-column {
   float: left;
   width: 50%;
@@ -43,7 +48,6 @@
 }
 
 .central-title{
-  font-size: var(--fs-500);
   color: var(--dark-color);
   text-align: center;
   float: left;
