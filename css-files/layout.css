@@ -10,8 +10,6 @@
   --mid-color:#CBD5E1;
   --light-color:#F8FAFC;
   
-  --test-1: #4E1A70;
-  --test-2: #2B4CF2;
   --horz-grade: linear-gradient(to right, rgb(78, 26, 112) , rgb(43, 76, 242));
   --mix-grade: linear-gradient(to bottom right, rgb(78, 26, 112) , rgb(43, 76, 242));
   --white-pad: linear-gradient(to bottom right, white , white);
