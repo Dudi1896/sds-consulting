@@ -7,8 +7,8 @@
     background: var(--mix-grade);
     padding: 15px;
     color: var(--mid-color);
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .box-daux ul{

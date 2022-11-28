@@ -5,6 +5,8 @@
 .topnav {
   overflow: hidden;
   background-image: var(--mix-grade);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .topnav a {
   float: left;
